@@ -119,7 +119,7 @@
 }
 
 .main div {
-  border-bottom: 1px solid $font-side;
+  border-bottom: 1px solid $font-light;
 }
 
 .main .section-title h1 {
@@ -147,4 +147,205 @@
   font-size: 18px;
   font-weight: 300;
   line-height: 42px;
+}
+
+.btn.btn-danger a {
+  text-decoration: none;
+}
+
+.main .general .calendar {
+  margin: 0;
+  padding: 0;
+}
+
+.main .general .calendar .calendar-inner {
+  height: 40px;
+  width: 400px;
+  margin: 33px auto;
+  border: none;
+}
+
+.main .input-form {
+  width: 325px;
+  height: 40px;
+  border: 1px solid $font-light;
+  border-radius: 5px;
+  float: left;
+}
+
+.main .input-form input {
+  margin: 8px 0 0 0;
+  border: none;
+  padding-left: 10px;
+}
+
+.main .input-form #end {
+  border-left: 1px solid $font-light;
+}
+
+.main .btn.btn-back {
+  width: 40px;
+  height: 40px;
+  background-color: #f58220;
+  border-radius: 5px;
+  float: left;
+  margin-left: 10px;
+}
+
+.main .btn.btn-back a {
+  text-decoration: none;
+}
+
+.main .btn.btn-back i {
+  color: $background-light;
+  width: 15px;
+  height: 15px;
+  margin: 12px 12px;
+}
+
+.main .charts .chart-inner .input-charts {
+  width: 100%;
+  height: 80px;
+  margin: 0;
+  padding: 0;
+  border-bottom: none;
+}
+
+.main .charts .chart-inner .input-charts .input-inner {
+  width: 810px;
+  height: 80px;
+  margin: 20px auto;
+  border-bottom: none;
+}
+
+.main .charts .chart-inner .input-charts .input-inner input {
+  margin-top: 10px;
+  font-family: $roboto-font;
+  font-size: 16px;
+  color: $font-title;
+}
+
+.main .charts .chart-inner .input-charts .visit {
+  width: 400px;
+  float: left;
+}
+
+.main .charts .chart-inner .input-charts .visit input {
+  float: right;
+  border: none;
+  text-align: right;
+}
+
+.main .charts .chart-inner .input-charts .input-inner label {
+  color: $font-title;
+  font-family: $roboto-font;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 42px;
+}
+
+
+.main .charts .chart-inner .input-charts .net {
+  width: 400px;
+  float: right;
+}
+
+.main .charts .chart-inner .input-charts .net input {
+  float: right;
+  border: none;
+  text-align: right;
+}
+
+.main .charts .chart-inner .input-charts .ftd {
+  width: 400px;
+  float: left;
+}
+
+.main .charts .chart-inner .input-charts .ftd input {
+  float: right;
+  border: none;
+  text-align: right;
+}
+
+.main .charts .chart-inner .input-charts .turn {
+  width: 400px;
+  float: right;
+}
+
+.main .charts .chart-inner .input-charts .turn input {
+  float: right;
+  border: none;
+  text-align: right;
+}
+
+.main .charts .chart-inner .charts-image {
+  width: 810px;
+  height: 500px;
+  margin: 50px auto;
+  border-bottom: none;
+}
+
+.main .charts .chart-inner .charts-image .subtitle {
+  color: $font-title;
+  font-family: $roboto-font;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 42px;
+  margin-bottom: 40px;
+}
+
+.main .charts .chart-inner .charts-image img {
+  display: block;
+  margin: 20px auto;
+}
+
+.main .links .links-list {
+  width: 100%;
+  height: 530px;
+  margin: 0;
+  border-bottom: none;
+}
+
+.main .links .links-list ul {
+  width: 810px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.main .links .links-list ul li {
+  display: block;
+  list-style-type: none;
+  width: 100%;
+  float: left;
+  text-decoration: none;
+  border-bottom: 1px solid $font-light;
+}
+
+.main .links .links-list .first {
+  border-top: 1px solid $font-light;
+}
+
+.main .links .links-list ul li p {
+  display: block;
+  height: 20px;
+  float: left;
+  width: 350px;
+  margin-left: 20px;
+  color: $font-title;
+  font-family: $roboto-font;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 17px;
+}
+
+.main .links .links-list ul li a {
+  display: block;
+  height: 20px;
+  margin: 15px 0 0 0;
+  text-decoration: none;
+  color: $font-links;
+  font-family: $roboto-font;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 17px;
 }
