@@ -1,31 +1,18 @@
 
-.side-bar .logo {
-  width: 100%;
-  height: 60px;
-  margin: 0;
-  padding: 0;
-}
-
-.side-bar .menu {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-.side-bar .logo-icon {
+.side-bar .logo .logo-icon {
   display: block;
   padding: 20px 20px;
   float: left;
   margin: 0;
 }
 
-.side-bar .menu-icon {
+.side-bar .logo .menu-icon {
   float: left;
   margin: 22px 0 0 20px;
-  color: white;
+  color: $background-light;
 }
 
-.side-bar .menu-links{
+.side-bar .menu .menu-links {
   display: block;
   list-style-type: none;
   width: 100%;
@@ -34,18 +21,18 @@
   border-bottom: 1px solid $font-side;
 }
 
-.side-bar .menu-links li {
+.side-bar .menu .menu-links li {
   width: 100%;
   height: 30px;
   margin: 0;
   padding: 0;
 }
 
-.side-bar .menu-links li a {
+.side-bar .menu .menu-links li a {
   text-decoration: none;
 }
 
-.side-bar .menu-links li img {
+.side-bar .menu .menu-links li img {
   width: 16px;
   height: 16px;
   filter: invert(60%);
@@ -53,7 +40,7 @@
   padding: 0 15px 0 20px;
 }
 
-.side-bar .menu-links li p {
+.side-bar .menu .menu-links li p {
   font-family: $roboto-font;
   font-size: 14px;
   font-weight: 300;
@@ -122,7 +109,7 @@
   border-bottom: 1px solid $font-light;
 }
 
-.main .section-title h1 {
+.main h1 {
   color: $font-title;
   font-family: $roboto-font;
   font-size: 16px;
@@ -137,7 +124,7 @@
   width: 127px;
   height: 40px;
   border-radius: 3px;
-  background-color: #f58220;
+  background-color: $button-orange;
 }
 
 .btn.btn-danger p {
@@ -165,7 +152,7 @@
   border: none;
 }
 
-.main .input-form {
+.main .general .calendar .calendar-inner .input-form {
   width: 325px;
   height: 40px;
   border: 1px solid $font-light;
@@ -173,37 +160,37 @@
   float: left;
 }
 
-.main .input-form input {
+.main .general .calendar .calendar-inner .input-form input {
   margin: 8px 0 0 0;
   border: none;
   padding-left: 10px;
 }
 
-.main .input-form #end {
+.main .general .calendar .calendar-inner .input-form #end {
   border-left: 1px solid $font-light;
 }
 
-.main .btn.btn-back {
+.main .general .calendar .calendar-inner .btn.btn-back {
   width: 40px;
   height: 40px;
-  background-color: #f58220;
+  background-color: $button-orange;
   border-radius: 5px;
   float: left;
   margin-left: 10px;
 }
 
-.main .btn.btn-back a {
+.main .general .calendar .calendar-inner .btn.btn-back a {
   text-decoration: none;
 }
 
-.main .btn.btn-back i {
+.main .general .calendar .calendar-inner .btn.btn-back i {
   color: $background-light;
   width: 15px;
   height: 15px;
   margin: 12px 12px;
 }
 
-.main .charts .chart-inner .input-charts {
+.main .general .charts .chart-inner .input-charts {
   width: 100%;
   height: 80px;
   margin: 0;
@@ -211,32 +198,32 @@
   border-bottom: none;
 }
 
-.main .charts .chart-inner .input-charts .input-inner {
+.main .general .charts .chart-inner .input-charts .input-inner {
   width: 810px;
   height: 80px;
   margin: 20px auto;
   border-bottom: none;
 }
 
-.main .charts .chart-inner .input-charts .input-inner input {
+.main .general .charts .chart-inner .input-charts .input-inner input {
   margin-top: 10px;
   font-family: $roboto-font;
   font-size: 16px;
   color: $font-title;
 }
 
-.main .charts .chart-inner .input-charts .visit {
+.main .general .charts .chart-inner .input-charts .visit {
   width: 400px;
   float: left;
 }
 
-.main .charts .chart-inner .input-charts .visit input {
+.main .general .charts .chart-inner .input-charts .visit input {
   float: right;
   border: none;
   text-align: right;
 }
 
-.main .charts .chart-inner .input-charts .input-inner label {
+.main .general .charts .chart-inner .input-charts .input-inner label {
   color: $font-title;
   font-family: $roboto-font;
   font-size: 16px;
@@ -245,47 +232,47 @@
 }
 
 
-.main .charts .chart-inner .input-charts .net {
+.main .general .charts .chart-inner .input-charts .net {
   width: 400px;
   float: right;
 }
 
-.main .charts .chart-inner .input-charts .net input {
+.main .general .charts .chart-inner .input-charts .net input {
   float: right;
   border: none;
   text-align: right;
 }
 
-.main .charts .chart-inner .input-charts .ftd {
+.main .general .charts .chart-inner .input-charts .ftd {
   width: 400px;
   float: left;
 }
 
-.main .charts .chart-inner .input-charts .ftd input {
+.main .general .charts .chart-inner .input-charts .ftd input {
   float: right;
   border: none;
   text-align: right;
 }
 
-.main .charts .chart-inner .input-charts .turn {
+.main .general .charts .chart-inner .input-charts .turn {
   width: 400px;
   float: right;
 }
 
-.main .charts .chart-inner .input-charts .turn input {
+.main .general .charts .chart-inner .input-charts .turn input {
   float: right;
   border: none;
   text-align: right;
 }
 
-.main .charts .chart-inner .charts-image {
+.main .general .charts .chart-inner .charts-image {
   width: 810px;
   height: 500px;
   margin: 50px auto;
   border-bottom: none;
 }
 
-.main .charts .chart-inner .charts-image .subtitle {
+.main .general .charts .chart-inner .charts-image .subtitle {
   color: $font-title;
   font-family: $roboto-font;
   font-size: 16px;
@@ -294,7 +281,7 @@
   margin-bottom: 40px;
 }
 
-.main .charts .chart-inner .charts-image img {
+.main .general .charts .chart-inner .charts-image img {
   display: block;
   margin: 20px auto;
 }
