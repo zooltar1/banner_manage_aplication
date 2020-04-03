@@ -10,6 +10,16 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <div class="overlay" id="overlay">
+    <div class="modal" id="myModal">
+      <div class="btn-close js--close-modal">x</div>
+  
+      <h4>Witaj w modalu!</h4>
+      <p>Lorem ipsum dolor sit amet...</p>
+  
+      <button class="js--close-modal">Okay</button>
+    </div>
+  </div>
   <nav>
     <div class="top-bar"> 
       <ul class="user-list">
@@ -148,7 +158,7 @@
           </div>
             <div class="charts-image">
               <h2 class="subtitle">Earnings chart</h2>
-              <img src="images/graph.png" alt="graph">
+              <canvas id="myChart"></canvas>
             </div>
         </div>
 
@@ -212,6 +222,7 @@
       </div>
     </div>
   </section>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
   <script src="js/script.js"></script>
 </body>
 </html>
