@@ -93,6 +93,12 @@ body {
     height: 60px;
   }
 
+  .side-bar .menu.show {
+    visibility: visible;
+    z-index: 40;
+    background-color: black;
+  }
+
   .side-bar .menu {
     visibility: hidden;
   }
