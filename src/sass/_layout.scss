@@ -8,8 +8,7 @@ body {
 }
 
 .main {
-  display: block;
-  width: 87vw;
+  width: 88%;
   margin: 80px 20px 20px 210px;
 }
 
@@ -34,7 +33,6 @@ body {
   height: 60px;
   margin: 0;
   padding: 0;
-  position: fixed;
   border-bottom: 1px solid $background-grey;
   background-color: $background-light;
 }
@@ -74,4 +72,37 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
+}
+
+@media (max-width: 767px) {
+  .top-bar {
+    position: relative;
+    margin: 0;
+    left: 0;
+    width: 100%;
+    visibility: hidden;
+  }
+
+  .side-bar {
+    top: -60px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    width: 100%;
+    height: 60px;
+  }
+
+  .side-bar .menu {
+    visibility: hidden;
+  }
+
+  .side-bar .contact {
+    visibility: hidden;
+  }
+
+  .main {
+    width: 100%;
+    margin: -70px 0 0 0;
+  }
 }

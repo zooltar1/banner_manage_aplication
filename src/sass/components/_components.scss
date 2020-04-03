@@ -231,7 +231,6 @@
   line-height: 42px;
 }
 
-
 .main .general .charts .chart-inner .input-charts .net {
   width: 400px;
   float: right;
@@ -335,4 +334,85 @@
   font-size: 16px;
   font-weight: 300;
   line-height: 17px;
+}
+
+@media (max-width: 767px) {
+  .side-bar .logo .menu-icon {
+    float: right;
+    margin: 22px 20px 0 0;
+  }
+
+  .main .general .calendar .calendar-inner {
+    width: 100%;
+    margin: 10px auto;
+    height: 90px;
+  }
+
+  .main .general .calendar .calendar-inner .input-form {
+    width: 90%;
+    margin: 0 auto;
+    float: none;
+  }
+
+  .main .general .calendar .calendar-inner .btn.btn-back {
+    width: 40px;
+    margin: 10px auto;
+    float: none;
+  }
+
+  .main .general .charts .chart-inner .input-charts .input-inner {
+    width: 90%;
+    height: 200px;
+    margin: 40px auto;
+  }
+
+  .main .general .charts .chart-inner .input-charts .visit {
+    width: 300px;
+    float: none;
+  }
+
+  .main .general .charts .chart-inner .input-charts .net {
+    width: 300px;
+    float: none;
+  }
+
+  .main .general .charts .chart-inner .input-charts .ftd {
+    width: 300px;
+    float: none;
+  }
+
+  .main .general .charts .chart-inner .input-charts .turn {
+    width: 300px;
+    float: none;
+  }
+
+  .main .general .charts .chart-inner .charts-image {
+    width: 90%;
+    height: 300px;
+    margin: 150px auto;
+    margin-bottom: 10px;
+  }
+
+  .main .general .charts .chart-inner .charts-image img {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+  }
+
+  .main .links .links-list ul {
+    width: 90%;
+    height: 100%;
+    margin: 0;
+  }
+
+  .main .links .links-list ul li {
+    width: 100%;
+    margin: 0 0 0 -20px;
+  }
+
+  .main .links .links-list ul li p {
+    width: 100px;
+    margin-left: 0;
+    margin-right: 10px;
+  }
 }
